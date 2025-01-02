@@ -78,18 +78,18 @@ body {
     background: url('image/bande.png') no-repeat center center;
     background-size: 100% 100%;
     border: none;
-    padding: 20px; /* Taille intérieure du bouton */
-    margin: 0 0px; /* Espacement horizontal entre les boutons */
+    padding: 20px; 
+    margin: 0 0px; 
     border-radius: 0px;
     font-size: 16px;
     cursor: pointer;
-    flex: 1 1 auto; /* Tous les boutons occupent un espace égal */
+    flex: 1 1 auto;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 3000px; /* Empêcher les boutons de devenir trop larges */
-    min-width: 10px; /* Largeur minimale pour maintenir une bonne lisibilité */
-    white-space: nowrap; /* Empêche le texte de se briser en plusieurs lignes */
-    text-align: center; /* Centre le texte dans le bouton */
+    max-width: 3000px; 
+    min-width: 10px; 
+    white-space: nowrap; 
+    text-align: center;
     
     transition: background-color 0.3s ease;
 }
@@ -112,10 +112,10 @@ body {
 }
 .fixed-container {
     position: fixed;
-    top: 70px; /* Juste sous le logo */
+    top: 70px; 
     left: 0;
     width: 100%;
-    margin-top: 40px; /* Supprime le margin-top initial */
+    margin-top: 40px; 
     transition: all 0.5s ease-in-out;
 }
 
