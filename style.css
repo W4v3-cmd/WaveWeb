@@ -25,6 +25,7 @@ body {
     position: fixed;
     top: 50%;
     left: 50%;
+    flex-direction: column;
     transform: translate(-50%, -50%);
     transition: all 0.5s ease-in-out;
 }
@@ -33,6 +34,12 @@ body {
     max-width: 500px;
     height: auto;
     transition: transform 0.2s ease, max-width 0.3s ease;
+}
+.bienvenue-txt{
+    display: block;
+    white-space: wrap;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
 }
 .hidden-text {
     display: none;
@@ -55,8 +62,8 @@ body {
     justify-content: center; 
     width: 100vw; 
     background-color: #582749;
-    border-radius: 10px;
-    padding: 5px 5px;
+    border-radius: 0px;
+    padding: 0px 0px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     margin-top: 100vh;
@@ -68,17 +75,22 @@ body {
     border: none;
     background-color: #8d3c74;
     color: #fff;
-    padding: 10px; /* Taille intérieure du bouton */
-    margin: 0 5px; /* Espacement horizontal entre les boutons */
-    border-radius: 10px;
+    background: url('image/bande.png') no-repeat center center;
+    background-size: 100% 100%;
+    border: none;
+    padding: 20px; /* Taille intérieure du bouton */
+    margin: 0 0px; /* Espacement horizontal entre les boutons */
+    border-radius: 0px;
     font-size: 16px;
     cursor: pointer;
     flex: 1 1 auto; /* Tous les boutons occupent un espace égal */
-    max-width: 200px; /* Empêcher les boutons de devenir trop larges */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 3000px; /* Empêcher les boutons de devenir trop larges */
     min-width: 10px; /* Largeur minimale pour maintenir une bonne lisibilité */
     white-space: nowrap; /* Empêche le texte de se briser en plusieurs lignes */
     text-align: center; /* Centre le texte dans le bouton */
-    text-overflow: ellipsis;
+    
     transition: background-color 0.3s ease;
 }
 
@@ -88,6 +100,7 @@ body {
 
 /* Après défilement */
 .logo-small {
+    flex-direction: row; 
     top: 10px;
     left: 10px;
     transform: none;
@@ -110,8 +123,28 @@ body {
     display: block;
     transform: translateX(0);
 }
-@media (max-width: 689px) {
-    .search-bar-container {
-        display: none; /* Masque complètement le conteneur */
+.rmvBvn{
+    display : none;
+}
+@media (max-width: 390px) {
+    .search-button {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        text-align: center;
+    }
+    .main-intro img{
+        max-width: 300px;
+        height: auto;
+    }
+    .logo-small {
+        top: 10px;
+        left: 10px;
+        transform: none;
+    }
+    
+    .logo-small img {
+        max-width: 100px;
+    
     }
 }
