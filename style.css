@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 200vh; 
+    background-color: #8d3c74;
+}
+
+.main-header {
+    width: 100%; 
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding-bottom: 10px; 
+}
+
+.main-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-in-out;
+}
+
+.main-intro img {
+    max-width: 500px;
+    height: auto;
+    transition: transform 0.2s ease, max-width 0.3s ease;
+}
+.hidden-text {
+    display: none;
+    
+    transform: translateX(-20px);
+    transition: all 0.5s ease-in-out;
+    color: #fff;
+
+}
+
+.main-intro img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100vw; 
+    background-color: #582749;
+    border-radius: 10px;
+    padding: 5px 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    margin-top: 100vh;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.search-button {
+    border: none;
+    background-color: #8d3c74;
+    color: #fff;
+    padding: 10px; /* Taille intérieure du bouton */
+    margin: 0 5px; /* Espacement horizontal entre les boutons */
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    flex: 1 1 auto; /* Tous les boutons occupent un espace égal */
+    max-width: 200px; /* Empêcher les boutons de devenir trop larges */
+    min-width: 10px; /* Largeur minimale pour maintenir une bonne lisibilité */
+    white-space: nowrap; /* Empêche le texte de se briser en plusieurs lignes */
+    text-align: center; /* Centre le texte dans le bouton */
+    text-overflow: ellipsis;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #daa85e;
+}
+
+/* Après défilement */
+.logo-small {
+    top: 10px;
+    left: 10px;
+    transform: none;
+}
+
+.logo-small img {
+    max-width: 100px;
+
+}
+.fixed-container {
+    position: fixed;
+    top: 70px; /* Juste sous le logo */
+    left: 0;
+    width: 100%;
+    margin-top: 40px; /* Supprime le margin-top initial */
+    transition: all 0.5s ease-in-out;
+}
+
+.logo-small .hidden-text {
+    display: block;
+    transform: translateX(0);
+}
+@media (max-width: 689px) {
+    .search-bar-container {
+        display: none; /* Masque complètement le conteneur */
+    }
+}
