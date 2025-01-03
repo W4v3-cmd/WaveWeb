@@ -35,11 +35,22 @@ body {
     height: auto;
     transition: transform 0.2s ease, max-width 0.3s ease;
 }
+
+.trait-intro{
+    border: none;
+    height: 3px; 
+    background-color: #fff;
+    width: 100vw;
+}
+
 .bienvenue-txt{
     display: block;
     white-space: wrap;
     color: #fff;
     transition: all 0.5s ease-in-out;
+}
+.swipeGif{
+    width: 200px;
 }
 .hidden-text {
     display: none;
@@ -78,18 +89,18 @@ body {
     background: url('image/bande.png') no-repeat center center;
     background-size: 100% 100%;
     border: none;
-    padding: 20px; 
-    margin: 0 0px; 
+    padding: 20px; /* Taille intérieure du bouton */
+    margin: 0 0px; /* Espacement horizontal entre les boutons */
     border-radius: 0px;
     font-size: 16px;
     cursor: pointer;
-    flex: 1 1 auto;
+    flex: 1 1 auto; /* Tous les boutons occupent un espace égal */
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 3000px; 
-    min-width: 10px; 
-    white-space: nowrap; 
-    text-align: center;
+    max-width: 3000px; /* Empêcher les boutons de devenir trop larges */
+    min-width: 10px; /* Largeur minimale pour maintenir une bonne lisibilité */
+    white-space: nowrap; /* Empêche le texte de se briser en plusieurs lignes */
+    text-align: center; /* Centre le texte dans le bouton */
     
     transition: background-color 0.3s ease;
 }
@@ -106,16 +117,17 @@ body {
     transform: none;
 }
 
-.logo-small img {
+.logo-small .GoldmaneLogo{
+    content : url("image/goldmaneLogoBorderless.png");
     max-width: 100px;
 
 }
 .fixed-container {
     position: fixed;
-    top: 70px; 
+    top: 70px; /* Juste sous le logo */
     left: 0;
     width: 100%;
-    margin-top: 40px; 
+    margin-top: 40px; /* Supprime le margin-top initial */
     transition: all 0.5s ease-in-out;
 }
 
@@ -126,6 +138,11 @@ body {
 .rmvBvn{
     display : none;
 }
+
+.rmvSwipeGif{
+    display : none;
+}
+
 @media (max-width: 390px) {
     .search-button {
         overflow: hidden;
