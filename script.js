@@ -4,6 +4,7 @@ window.addEventListener("scroll", () => {
     const textBvn = document.querySelector(".bienvenue-txt");
     const swipeGif = document.querySelector(".swipeGif");
     const trait = document.querySelector(".trait-intro");
+    const sectionBureau = document.getElementById("section-bureau");
     
     const searchBarContainer = document.querySelector(".search-bar-container");
 
@@ -14,12 +15,13 @@ window.addEventListener("scroll", () => {
         searchBarContainer.classList.add("fixed-container");
         textBvn.classList.add("rmvBvn");
         swipeGif.classList.add("rmvSwipeGif");
+        sectionBureau.classList.add("active");
     } else {
         
         logoContainer.classList.remove("logo-small");
         
         searchBarContainer.classList.remove("fixed-container");
         textBvn.classList.remove("rmvBvn");
-        swipeGif.classList.remove("rmvSwipeGif");
+        sectionBureau.classList.remove("active");
     }
 });
