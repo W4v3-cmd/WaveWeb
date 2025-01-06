@@ -5,6 +5,8 @@ window.addEventListener("scroll", () => {
     const swipeGif = document.querySelector(".swipeGif");
     const trait = document.querySelector(".trait-intro");
     const sectionBureau = document.getElementById("section-bureau");
+    const sectionPoleEntreprise = document.getElementById("section-pole-entreprise");
+    const sectionPoleCom = document.getElementById("section-pole-com");
     
     const searchBarContainer = document.querySelector(".search-bar-container");
 
@@ -16,6 +18,9 @@ window.addEventListener("scroll", () => {
         textBvn.classList.add("rmvBvn");
         swipeGif.classList.add("rmvSwipeGif");
         sectionBureau.classList.add("active");
+        sectionPoleEntreprise.classList.add("active");
+        sectionPoleCom.classList.add("active");
+
     } else {
         
         logoContainer.classList.remove("logo-small");
@@ -23,5 +28,7 @@ window.addEventListener("scroll", () => {
         searchBarContainer.classList.remove("fixed-container");
         textBvn.classList.remove("rmvBvn");
         sectionBureau.classList.remove("active");
+        sectionPoleEntreprise.classList.remove("active");
+        sectionPoleCom.classList.remove("active");
     }
 });

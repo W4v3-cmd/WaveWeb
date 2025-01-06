@@ -8,7 +8,7 @@ body {
 
 .main-header {
     width: 100%; 
-    position: fixed; 
+    position:sticky; 
     top: 0; 
     left: 0;
     z-index: 10;
@@ -79,10 +79,11 @@ body {
     box-sizing: border-box;
     margin-top: 100vh;
     transition: all 0.5s ease-in-out;
+    position:sticky
 }
 
 
-.search-button {
+.search-nav {
     border: none;
     background-color: #8d3c74;
     color: #fff;
@@ -103,9 +104,10 @@ body {
     text-align: center; /* Centre le texte dans le bouton */
     
     transition: background-color 0.3s ease;
+    position: sticky;
 }
 
-.search-button:hover {
+.search-nav:hover {
     background-color: #daa85e;
 }
 
@@ -154,7 +156,7 @@ body {
     background-color: #35353527;
     color: #333;
     margin-top: 100vw; /* Espace pour laisser la place au logo */
-    position: fixed;
+    position:static;
     transition: all 0.5s ease-in-out;
     
 }
@@ -168,7 +170,7 @@ body {
     background-color: #35353527;
     color: #333;
     margin-top: 150px; /* Espace pour laisser la place au logo */
-    position: fixed;
+    position: absolute;
     transition: all 0.5s ease-in-out;
     
 }
@@ -182,8 +184,113 @@ body {
     color : white;
 }
 
+
+#section-pole-entreprise{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #35353527;
+    color: #333;
+    margin-top: 300vw; /* Espace pour laisser la place au logo */
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    
+}
+#section-pole-entreprise.active{
+    opacity: 1;
+    visibility: visible;
+    display: block;
+    transform: translateY(20px);
+    width: 100%;
+    z-index: 1;
+    background-color: #35353527;
+    color: #333;
+    margin-top: 500px; /* Espace pour laisser la place au logo */
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    
+}
+#section-pole-entreprise.active .titre-pole-entreprise{
+    align-items: flex-start;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #582749;
+    color : white;
+}
+
+
+#section-pole-com{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #35353527;
+    color: #333;
+    margin-top: 300vw; /* Espace pour laisser la place au logo */
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    
+}
+#section-pole-com.active{
+    opacity: 1;
+    visibility: visible;
+    display: block;
+    transform: translateY(20px);
+    width: 100%;
+    z-index: 1;
+    background-color: #35353527;
+    color: #333;
+    margin-top: 800px; /* Espace pour laisser la place au logo */
+    position:absolute;
+    transition: all 0.5s ease-in-out;
+    
+}
+#section-pole-com.active .titre-pole-com{
+    align-items: flex-start;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #582749;
+    color : white;
+}
+
+
+.dropdown a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+
+}
+
+.dropdown .content{
+    display: none;
+    background-color: #35353527;
+    position: absolute;
+    border: 2px solid black ;
+    border-radius: 10px;
+}
+
+.dropdown:hover .content{
+    display: block;
+    border-radius: 10px;
+
+}
+
+.dropdown .content a:hover{
+    background-color: #daa85e;
+}
+
 @media (max-width: 390px) {
-    .search-button {
+    .search-nav {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
