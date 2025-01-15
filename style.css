@@ -148,7 +148,6 @@ body {
     opacity: 0;
     visibility: hidden;
     transform: translateY(20px);
-    transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
     padding: 50px 20px;
     z-index: 1;
     background-color: #fff;
@@ -158,6 +157,31 @@ body {
     
 }
 #section-bureau.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+
+#section-entreprise{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+#section-entreprise.active{
     opacity: 1;
     visibility: visible;
     transform: translateY(20px);
