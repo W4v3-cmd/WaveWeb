@@ -325,6 +325,11 @@ body {
     
 }
 
+.photo-bureau{
+    display: grid;
+    grid-auto-flow: column;
+}
+
 @media (max-width: 390px) {
     .search-button {
         overflow: hidden;
