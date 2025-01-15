@@ -194,6 +194,131 @@ body {
     
 }
 
+#section-communication{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+#section-communication.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+
+#section-soiree{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+#section-soiree.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+
+#section-event{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+#section-event.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+
+#section-voyage{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+#section-voyage.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+
+#section-polyvalent{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+#section-polyvalent.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+
 @media (max-width: 390px) {
     .search-button {
         overflow: hidden;
