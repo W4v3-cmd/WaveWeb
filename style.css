@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 200vh; 
-    background-color: #8d3c74;
+    background-color: #41071c;
 }
 
 .main-header {
@@ -119,7 +119,7 @@ body {
 }
 
 .logo-small .GoldmaneLogo{
-    content : url("image/goldmaneLogoBorderless.png");
+    content : url("image/Logo.jpg");
     max-width: 100px;
 
 }
@@ -144,170 +144,213 @@ body {
     display : none;
 }
 
+.section{
+    width: 100%;
+    text-align: center;
+}
 
+.photoMembre{
+    position: relative;
+    display: inline-block;
+    width: 300px;  /* Ajuste la taille selon besoin */
+    height: 300px;
+}
 
-/*BUREAU*/
+.photoMembre img {
+    width: 100%;
+    height: 100%;
+    /*object-fit: cover; /* S'assure que les images remplissent bien le conteneur */
+}
+
+.bandePhotoMembre{
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
 #section-bureau{
     opacity: 0;
     visibility: hidden;
     transform: translateY(20px);
-    
     padding: 50px 20px;
     z-index: 1;
-    background-color: #35353527;
+    background-color: #fff;
     color: #333;
-    margin-top: 100vw; /* Espace pour laisser la place au logo */
+    margin: 120px auto; /* Espace pour laisser la place au logo */
     position: fixed;
-    transition: all 0.5s ease-in-out;
     
 }
 #section-bureau.active{
     opacity: 1;
     visibility: visible;
-    display: block;
     transform: translateY(20px);
-    width: 100%;
+    padding: 50px 20px;
     z-index: 1;
-    background-color: #35353527;
+    background-color: #fff;
     color: #333;
-    margin-top: 150px; /* Espace pour laisser la place au logo */
+    margin-top: 120px; /* Espace pour laisser la place au logo */
     position: fixed;
-    transition: all 0.5s ease-in-out;
+
+    background-image: url('image/goldmaneLogo.png');
     
 }
 
-#section-bureau.active .titre-bureau{
-    margin-top: -50px;
-    margin-left: -20px;
-    margin-right: 40px;
-    text-align: center;
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #582749;
-    border-color: #333;
-    color : white;
+#section-entreprise{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+#section-entreprise.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
     
 }
 
-#section-bureau.active .bureau-photo1{
-    opacity: 1;
-    background-color: #333;
-    color: white;
-    width: 500px;
-    padding: 0px;
-    text-align: center;
-    transition: background-color 0.2s ease-in-out;
-}
-#section-bureau.active .bureau-photo1:hover{
-    opacity: 1;
-    background-color: #333;
-    color: white;
-    width: 500px;
-    padding: 0px;
-    text-align: center;
+#section-communication{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
     
 }
-#section-bureau.active .bureau-photo2{
+#section-communication.active{
     opacity: 1;
-    background-color: #333;
-    color: white;
-    width: 500px;
-    padding: 20px;
-    text-align: center;
-    transition: background-color 0.2s ease-in-out;
-}
-#section-bureau.active .bureau-photo2:hover{
-    opacity: 1;
-    background-color: #333;
-    color: white;
-    width: 500px;
-    padding: 20px;
-    text-align: center;
-    
-}
-#section-bureau.active .bureau-photo3{
-    opacity: 1;
-    background-color: #333;
-    color: white;
-    width: 500px;
-    padding: 20px;
-    text-align: center;
-    transition: background-color 0.2s ease-in-out;
-}
-#section-bureau.active .bureau-photo3:hover{
-    opacity: 1;
-    background-color: #333;
-    color: white;
-    width: 500px;
-    padding: 20px;
-    text-align: center;
-    
-}
-#section-bureau.active .bureau-photo4{
-    opacity: 1;
-    background-color: #333;
-    color: white;
-    width: 500px;
-    padding: 20px;
-    text-align: center;
-    transition: background-color 0.2s ease-in-out;
-}
-#section-bureau.active .bureau-photo4:hover{
-    opacity: 1;
-    background-color: #333;
-    color: white;
-    width: 500px;
-    padding: 20px;
-    text-align: center;
-    
-}
-#section-bureau.active .bureau-photo5{
-    opacity: 1;
-    background-color: #333;
-    color: white;
-    width: 500px;
-    padding: 20px;
-    text-align: center;
-    transition: background-color 0.2s ease-in-out;
-}
-#section-bureau.active .bureau-photo5:hover{
-    opacity: 1;
-    background-color: #333;
-    color: white;
-    width: 500px;
-    padding: 20px;
-    text-align: center;
-    
-}
-#section-bureau.active .bureau-photo6{
-    opacity: 1;
-    background-color: #333;
-    color: white;
-    width: 500px;
-    padding: 20px;
-    text-align: center;
-    transition: background-color 0.2s ease-in-out;
-}
-#section-bureau.active .bureau-photo6:hover{
-    opacity: 1;
-    background-color: #333;
-    color: white;
-    width: 500px;
-    padding: 20px;
-    text-align: center;
+    visibility: visible;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
     
 }
 
-.presentation-image{
-    width: 500px;
-}
-.presentation-image:hover{
-    width: 500px;
-    opacity: 0.5;
-    filter: brightness(0.6);
+#section-soiree{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
     
 }
+#section-soiree.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+
+#section-event{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+#section-event.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+
+#section-voyage{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+#section-voyage.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+
+#section-polyvalent{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+#section-polyvalent.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: fixed;
+    
+}
+
+.photo-bureau{
+    display: grid;
+    grid-auto-flow: column;
+}
+
 @media (max-width: 390px) {
     .search-button {
         overflow: hidden;
