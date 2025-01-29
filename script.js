@@ -15,7 +15,7 @@ window.addEventListener("scroll", () => {
     
     const searchBarContainer = document.querySelector(".search-bar-container");
 
-    const sectionPartenariat = document.getElementById("partenariat");
+    //const sectionPartenariat = document.getElementById("partenariat");
 
     if (window.scrollY > 30) {
         
@@ -26,7 +26,7 @@ window.addEventListener("scroll", () => {
         swipeGif.classList.add("rmvSwipeGif");
 
         if (window.screenY > 100){
-            
+
         }
     
     } else {
