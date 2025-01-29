@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "theOfficeFont";
+    src: url(fonts/TYPIST.TTF);
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -147,6 +152,7 @@ body {
 .section{
     width: 100%;
     text-align: center;
+    font-family: "theOfficeFont";
 }
 
 .photoMembre{
@@ -175,10 +181,11 @@ body {
     transform: translateY(20px);
     padding: 50px 20px;
     z-index: 1;
-    background-color: #fff;
-    color: #333;
+    background-color:#41071c;
+    color: #b5b1b1;
     margin: 120px auto; /* Espace pour laisser la place au logo */
     position: fixed;
+    /*font-family: "theOfficeFont";*/
     
 }
 #section-bureau.active{
@@ -187,12 +194,10 @@ body {
     transform: translateY(20px);
     padding: 50px 20px;
     z-index: 1;
-    background-color: #fff;
-    color: #333;
+    background-color:  #41071c;
+    color: #b5b1b1;
     margin-top: 120px; /* Espace pour laisser la place au logo */
     position: fixed;
-
-    background-image: url('image/goldmaneLogo.png');
     
 }
 
@@ -202,7 +207,7 @@ body {
     transform: translateY(20px);
     padding: 50px 20px;
     z-index: 1;
-    background-color: #fff;
+    background-color: #41071c;
     color: #333;
     margin-top: 120px; /* Espace pour laisser la place au logo */
     position: fixed;
@@ -214,8 +219,8 @@ body {
     transform: translateY(20px);
     padding: 50px 20px;
     z-index: 1;
-    background-color: #fff;
-    color: #333;
+    background-color:  #41071c;
+    color: #b5b1b1;
     margin-top: 120px; /* Espace pour laisser la place au logo */
     position: fixed;
     
@@ -227,7 +232,7 @@ body {
     transform: translateY(20px);
     padding: 50px 20px;
     z-index: 1;
-    background-color: #fff;
+    background-color:  #41071c;
     color: #333;
     margin-top: 120px; /* Espace pour laisser la place au logo */
     position: fixed;
@@ -239,8 +244,8 @@ body {
     transform: translateY(20px);
     padding: 50px 20px;
     z-index: 1;
-    background-color: #fff;
-    color: #333;
+    background-color: #41071c;
+    color: #b5b1b1;
     margin-top: 120px; /* Espace pour laisser la place au logo */
     position: fixed;
     
@@ -252,8 +257,8 @@ body {
     transform: translateY(20px);
     padding: 50px 20px;
     z-index: 1;
-    background-color: #fff;
-    color: #333;
+    background-color: #41071c;
+    color:#b5b1b1;
     margin-top: 120px; /* Espace pour laisser la place au logo */
     position: fixed;
     
@@ -264,8 +269,8 @@ body {
     transform: translateY(20px);
     padding: 50px 20px;
     z-index: 1;
-    background-color: #fff;
-    color: #333;
+    background-color: #41071c;
+    color: #b5b1b1;
     margin-top: 120px; /* Espace pour laisser la place au logo */
     position: fixed;
     
@@ -277,8 +282,8 @@ body {
     transform: translateY(20px);
     padding: 50px 20px;
     z-index: 1;
-    background-color: #fff;
-    color: #333;
+    background-color:  #41071c;
+    color: #b5b1b1;
     margin-top: 120px; /* Espace pour laisser la place au logo */
     position: fixed;
     
@@ -289,8 +294,8 @@ body {
     transform: translateY(20px);
     padding: 50px 20px;
     z-index: 1;
-    background-color: #fff;
-    color: #333;
+    background-color:  #41071c;
+    color: #b5b1b1;
     margin-top: 120px; /* Espace pour laisser la place au logo */
     position: fixed;
     
@@ -302,8 +307,8 @@ body {
     transform: translateY(20px);
     padding: 50px 20px;
     z-index: 1;
-    background-color: #fff;
-    color: #333;
+    background-color:  #41071c;
+    color: #b5b1b1;
     margin-top: 120px; /* Espace pour laisser la place au logo */
     position: fixed;
     
@@ -314,8 +319,8 @@ body {
     transform: translateY(20px);
     padding: 50px 20px;
     z-index: 1;
-    background-color: #fff;
-    color: #333;
+    background-color:  #41071c;
+    color: #b5b1b1;
     margin-top: 120px; /* Espace pour laisser la place au logo */
     position: fixed;
     
@@ -327,7 +332,7 @@ body {
     transform: translateY(20px);
     padding: 50px 20px;
     z-index: 1;
-    background-color: #fff;
+    background-color:  #41071c;
     color: #333;
     margin-top: 120px; /* Espace pour laisser la place au logo */
     position: fixed;
@@ -339,8 +344,8 @@ body {
     transform: translateY(20px);
     padding: 50px 20px;
     z-index: 1;
-    background-color: #fff;
-    color: #333;
+    background-color: #41071c;
+    color: #b5b1b1;
     margin-top: 120px; /* Espace pour laisser la place au logo */
     position: fixed;
     
