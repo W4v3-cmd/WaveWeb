@@ -14,25 +14,24 @@ window.addEventListener("scroll", () => {
     const sectionPolyvalent = document.getElementById("section-polyvalent");
     
     const searchBarContainer = document.querySelector(".search-bar-container");
-
-    //const sectionPartenariat = document.getElementById("partenariat");
+    const secondSearchBarContainer = document.querySelector(".second-search-bar-container");
 
     if (window.scrollY > 30) {
         
         logoContainer.classList.add("logo-small");
         
         searchBarContainer.classList.add("fixed-container");
+        secondSearchBarContainer.classList.add("second-fixed-container");
         textBvn.classList.add("rmvBvn");
         swipeGif.classList.add("rmvSwipeGif");
 
-        if (window.screenY > 100){
-
-        }
     
     } else {
-        
+    
+
         logoContainer.classList.remove("logo-small");
         searchBarContainer.classList.remove("fixed-container");
+        secondSearchBarContainer.classList.remove("second-fixed-container");
         textBvn.classList.remove("rmvBvn");
 
         sectionBureau.classList.remove("active");
