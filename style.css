@@ -145,8 +145,8 @@ body {
     z-index: 10;
 }
 
-.logo-small .GoldmaneLogo{
-    content : url("image/Logo.jpg");
+.logo-small .SunsetLogo{
+    content : url("image/SunsetLogoTransparent.png");
     max-width: 100px;
 
 }
