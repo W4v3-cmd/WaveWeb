@@ -25,6 +25,14 @@ window.addEventListener("scroll", () => {
         textBvn.classList.add("rmvBvn");
         swipeGif.classList.add("rmvSwipeGif");
 
+
+        sectionBureau.classList.add("active");
+        sectionEntreprise.classList.add("active");
+        sectionCommunication.classList.add("active");
+        sectionEvent.classList.add("active");
+        sectionSoiree.classList.add("active");
+        sectionVoyage.classList.add("active");
+        sectionPolyvalent.classList.add("active");
     
     } else {
     
@@ -47,86 +55,58 @@ window.addEventListener("scroll", () => {
 //il existe surement un moyen de simplifier les boutton suivant a regarder ...
 
 document.getElementById("bureau-button").addEventListener("click", () => {
-    const section = document.getElementById("section-bureau");
-    section.classList.toggle("active");
-    document.getElementById("section-entreprise").classList.remove("active");
-    document.getElementById("section-soiree").classList.remove("active");
-    document.getElementById("section-event").classList.remove("active");
-    document.getElementById("section-polyvalent").classList.remove("active");
-    document.getElementById("section-communication").classList.remove("active");
-    document.getElementById("section-voyage").classList.remove("active");
-
+    window.scrollTo({
+        top: 300,
+        left: 0,
+        behavior: "smooth"
+    });
 
 });
 
 document.getElementById("entreprise-button").addEventListener("click", () => {
-    const section = document.getElementById("section-entreprise");
-    section.classList.toggle("active");
-    document.getElementById("section-bureau").classList.remove("active");
-    document.getElementById("section-soiree").classList.remove("active");
-    document.getElementById("section-event").classList.remove("active");
-    document.getElementById("section-polyvalent").classList.remove("active");
-    document.getElementById("section-communication").classList.remove("active");
-    document.getElementById("section-voyage").classList.remove("active");
-
-});
-
-document.getElementById("soiree-button").addEventListener("click", () => {
-    const section = document.getElementById("section-soiree");
-    section.classList.toggle("active");
-    document.getElementById("section-entreprise").classList.remove("active");
-    document.getElementById("section-bureau").classList.remove("active");
-    document.getElementById("section-event").classList.remove("active");
-    document.getElementById("section-polyvalent").classList.remove("active");
-    document.getElementById("section-communication").classList.remove("active");
-    document.getElementById("section-voyage").classList.remove("active");
-
-});
-
-document.getElementById("event-button").addEventListener("click", () => {
-    const section = document.getElementById("section-event");
-    section.classList.toggle("active");
-    document.getElementById("section-entreprise").classList.remove("active");
-    document.getElementById("section-bureau").classList.remove("active");
-    document.getElementById("section-soiree").classList.remove("active");
-    document.getElementById("section-polyvalent").classList.remove("active");
-    document.getElementById("section-communication").classList.remove("active");
-    document.getElementById("section-voyage").classList.remove("active");
-
-});
-
-document.getElementById("voyage-button").addEventListener("click", () => {
-    const section = document.getElementById("section-voyage");
-    section.classList.toggle("active");
-    document.getElementById("section-entreprise").classList.remove("active");
-    document.getElementById("section-bureau").classList.remove("active");
-    document.getElementById("section-event").classList.remove("active");
-    document.getElementById("section-polyvalent").classList.remove("active");
-    document.getElementById("section-communication").classList.remove("active");
-    document.getElementById("section-soiree").classList.remove("active");
-
+        window.scrollTo({
+            top: 1650,
+            left: 0,
+            behavior: "smooth"
+        });
 });
 
 document.getElementById("communication-button").addEventListener("click", () => {
-    const section = document.getElementById("section-communication");
-    section.classList.toggle("active");
-    document.getElementById("section-entreprise").classList.remove("active");
-    document.getElementById("section-bureau").classList.remove("active");
-    document.getElementById("section-event").classList.remove("active");
-    document.getElementById("section-polyvalent").classList.remove("active");
-    document.getElementById("section-soiree").classList.remove("active");
-    document.getElementById("section-voyage").classList.remove("active");
+    window.scrollTo({
+        top: 2575,
+        left: 0,
+        behavior: "smooth"
+    });
+});
 
+document.getElementById("soiree-button").addEventListener("click", () => {
+    window.scrollTo({
+        top: 3500,
+        left: 0,
+        behavior: "smooth"
+    });
+});
+
+document.getElementById("event-button").addEventListener("click", () => {
+    window.scrollTo({
+        top: 4425,
+        left: 0,
+        behavior: "smooth"
+    });
+});
+
+document.getElementById("voyage-button").addEventListener("click", () => {
+    window.scrollTo({
+        top: 5350,
+        left: 0,
+        behavior: "smooth"
+    });
 });
 
 document.getElementById("polyvalent-button").addEventListener("click", () => {
-    const section = document.getElementById("section-polyvalent");
-    section.classList.toggle("active");
-    document.getElementById("section-entreprise").classList.remove("active");
-    document.getElementById("section-bureau").classList.remove("active");
-    document.getElementById("section-event").classList.remove("active");
-    document.getElementById("section-soiree").classList.remove("active");
-    document.getElementById("section-communication").classList.remove("active");
-    document.getElementById("section-voyage").classList.remove("active");
-
+    window.scrollTo({
+        top: 6275,
+        left: 0,
+        behavior: "smooth"
+    });
 });

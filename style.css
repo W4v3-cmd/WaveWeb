@@ -71,6 +71,15 @@ body {
     filter: brightness(1.2);
 }
 
+.rectangle-fond {
+    background-color: #41071c;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
 
 .search-bar-container {
     display: flex;
@@ -136,8 +145,8 @@ body {
     z-index: 10;
 }
 
-.logo-small .SunsetLogo{
-    content : url("image/SunsetLogoTransparent.png");
+.logo-small .GoldmaneLogo{
+    content : url("image/Logo.jpg");
     max-width: 100px;
 
 }
@@ -206,8 +215,8 @@ body {
     z-index: 1;
     background-color:#41071c;
     color: #b5b1b1;
-    margin: 120px auto; /* Espace pour laisser la place au logo */
-    position: fixed;
+    margin: 500px auto; /* Espace pour laisser la place au logo */
+    position: relative;
     /*font-family: "theOfficeFont";*/
     
 }
@@ -219,8 +228,8 @@ body {
     z-index: 1;
     background-color:  #41071c;
     color: #b5b1b1;
-    margin-top: 120px; /* Espace pour laisser la place au logo */
-    position: fixed;
+    margin-top: 500px; /* Espace pour laisser la place au logo */
+    position: relative;
     
 }
 
@@ -233,7 +242,7 @@ body {
     background-color: #41071c;
     color: #333;
     margin-top: 120px; /* Espace pour laisser la place au logo */
-    position: fixed;
+    position: relative;
     
 }
 #section-entreprise.active{
@@ -245,7 +254,7 @@ body {
     background-color:  #41071c;
     color: #b5b1b1;
     margin-top: 120px; /* Espace pour laisser la place au logo */
-    position: fixed;
+    position: relative;
     
 }
 
@@ -258,7 +267,7 @@ body {
     background-color:  #41071c;
     color: #333;
     margin-top: 120px; /* Espace pour laisser la place au logo */
-    position: fixed;
+    position: relative;
     
 }
 #section-communication.active{
@@ -270,7 +279,7 @@ body {
     background-color: #41071c;
     color: #b5b1b1;
     margin-top: 120px; /* Espace pour laisser la place au logo */
-    position: fixed;
+    position: relative;
     
 }
 
@@ -283,7 +292,7 @@ body {
     background-color: #41071c;
     color:#b5b1b1;
     margin-top: 120px; /* Espace pour laisser la place au logo */
-    position: fixed;
+    position: relative;
     
 }
 #section-soiree.active{
@@ -295,7 +304,7 @@ body {
     background-color: #41071c;
     color: #b5b1b1;
     margin-top: 120px; /* Espace pour laisser la place au logo */
-    position: fixed;
+    position: relative;
     
 }
 
@@ -308,7 +317,7 @@ body {
     background-color:  #41071c;
     color: #b5b1b1;
     margin-top: 120px; /* Espace pour laisser la place au logo */
-    position: fixed;
+    position: relative;
     
 }
 #section-event.active{
@@ -320,7 +329,7 @@ body {
     background-color:  #41071c;
     color: #b5b1b1;
     margin-top: 120px; /* Espace pour laisser la place au logo */
-    position: fixed;
+    position: relative;
     
 }
 
@@ -333,7 +342,7 @@ body {
     background-color:  #41071c;
     color: #b5b1b1;
     margin-top: 120px; /* Espace pour laisser la place au logo */
-    position: fixed;
+    position: relative;
     
 }
 #section-voyage.active{
@@ -345,7 +354,7 @@ body {
     background-color:  #41071c;
     color: #b5b1b1;
     margin-top: 120px; /* Espace pour laisser la place au logo */
-    position: fixed;
+    position: relative;
     
 }
 
@@ -358,7 +367,7 @@ body {
     background-color:  #41071c;
     color: #333;
     margin-top: 120px; /* Espace pour laisser la place au logo */
-    position: fixed;
+    position: relative;
     
 }
 #section-polyvalent.active{
@@ -370,7 +379,7 @@ body {
     background-color: #41071c;
     color: #b5b1b1;
     margin-top: 120px; /* Espace pour laisser la place au logo */
-    position: fixed;
+    position: relative;
     
 }
 
