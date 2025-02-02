@@ -383,13 +383,54 @@ body {
     
 }
 
+#who{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #41071c;
+    color: #b5b1b1;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: relative;
+}
+
 .photo-bureau{
     display: grid;
     grid-auto-flow: column;
 }
 
+#partenariat{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #41071c;
+    color: #b5b1b1;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: relative;
+}
+
+#reseaux{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(20px);
+    padding: 50px 20px;
+    z-index: 1;
+    background-color: #41071c;
+    color: #b5b1b1;
+    margin-top: 120px; /* Espace pour laisser la place au logo */
+    position: relative;
+}
+
+
 @media (max-width: 768px) { 
     .photo-bureau {
+        grid-auto-flow: row;
+        justify-content: center;
+    }
+    .photo-parenariat {
         grid-auto-flow: row;
         justify-content: center;
     }

@@ -89,3 +89,18 @@ document.getElementById("polyvalent-button").addEventListener("click", () => {
     document.getElementById("section-polyvalent").scrollIntoView();
     window.scrollBy(0, -200);
 });
+
+document.getElementById("qui-button").addEventListener("click", () => {
+    document.getElementById("who").scrollIntoView();
+    window.scrollBy(0, -250);
+});
+
+document.getElementById("partenaire-button").addEventListener("click", () => {
+    document.getElementById("partenariat").scrollIntoView();
+    window.scrollBy(0, -250);
+});
+
+document.getElementById("reseaux-button").addEventListener("click", () => {
+    document.getElementById("reseaux").scrollIntoView();
+    
+});
