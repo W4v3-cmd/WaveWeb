@@ -388,6 +388,13 @@ body {
     grid-auto-flow: column;
 }
 
+@media (max-width: 768px) { 
+    .photo-bureau {
+        grid-auto-flow: row; /* Change l'alignement en colonne */
+        justify-content: center; /* Centre les éléments */
+    }
+}
+
 @media (max-width: 390px) {
     .search-button {
         overflow: hidden;

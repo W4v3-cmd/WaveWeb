@@ -55,58 +55,37 @@ window.addEventListener("scroll", () => {
 //il existe surement un moyen de simplifier les boutton suivant a regarder ...
 
 document.getElementById("bureau-button").addEventListener("click", () => {
-    window.scrollTo({
-        top: 300,
-        left: 0,
-        behavior: "smooth"
-    });
+    document.getElementById("section-bureau").scrollIntoView();
+    window.scrollBy(0, -200);
 
 });
 
 document.getElementById("entreprise-button").addEventListener("click", () => {
-        window.scrollTo({
-            top: 1650,
-            left: 0,
-            behavior: "smooth"
-        });
+    document.getElementById("section-entreprise").scrollIntoView();
+    window.scrollBy(0, -200);
 });
 
 document.getElementById("communication-button").addEventListener("click", () => {
-    window.scrollTo({
-        top: 2575,
-        left: 0,
-        behavior: "smooth"
-    });
+    document.getElementById("section-communication").scrollIntoView();
+    window.scrollBy(0, -200);
 });
 
 document.getElementById("soiree-button").addEventListener("click", () => {
-    window.scrollTo({
-        top: 3500,
-        left: 0,
-        behavior: "smooth"
-    });
+    document.getElementById("section-soiree").scrollIntoView();
+    window.scrollBy(0, -200);
 });
 
 document.getElementById("event-button").addEventListener("click", () => {
-    window.scrollTo({
-        top: 4425,
-        left: 0,
-        behavior: "smooth"
-    });
+    document.getElementById("section-event").scrollIntoView();
+    window.scrollBy(0, -200);
 });
 
 document.getElementById("voyage-button").addEventListener("click", () => {
-    window.scrollTo({
-        top: 5350,
-        left: 0,
-        behavior: "smooth"
-    });
+    document.getElementById("section-voyage").scrollIntoView();
+    window.scrollBy(0, -200);
 });
 
 document.getElementById("polyvalent-button").addEventListener("click", () => {
-    window.scrollTo({
-        top: 6275,
-        left: 0,
-        behavior: "smooth"
-    });
+    document.getElementById("section-polyvalent").scrollIntoView();
+    window.scrollBy(0, -200);
 });
