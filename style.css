@@ -1,6 +1,12 @@
 @font-face {
     font-family: "theOfficeFont";
     src: url(fonts/TYPIST.TTF);
+
+    font-family: "Tangerine-Bold";
+    src: url(fonts/Tangerine_Bold.ttf);
+
+    font-family: "Tangerine-Regular";
+    src: url(fonts/Tangerine_Regular.ttf);
 }
 
 body {
@@ -49,6 +55,8 @@ body {
 }
 
 .bienvenue-txt{
+    font-family: Tangerine-Regular, Arial, Helvetica, sans-serif;
+    font-size: 80px;
     display: block;
     white-space: wrap;
     color: #fff;
@@ -185,6 +193,10 @@ body {
     text-align: center;
     font-family: "theOfficeFont";
     top: 25px;
+}
+
+.titre-pole{
+    font-size: 40px;
 }
 
 .photoMembre{
