@@ -95,7 +95,7 @@ body {
     justify-content: center; 
     width: 100vw; 
     background-color: #582749;
-    border-radius: 0px;
+    border-radius:0px;
     padding: 0px 0px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
@@ -109,7 +109,7 @@ body {
     justify-content: center; 
     width: 100vw; 
     background-color: #582749;
-    border-radius: 0px;
+    border-radius:0px;
     padding: 0px 0px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
@@ -126,7 +126,7 @@ body {
     border: none;
     padding: 20px; /* Taille intérieure du bouton */
     margin: 0 0px; /* Espacement horizontal entre les boutons */
-    border-radius: 0px;
+    border-radius:0px;
     font-size: 16px;
     cursor: pointer;
     flex: 1 1 auto; /* Tous les boutons occupent un espace égal */
@@ -193,6 +193,20 @@ body {
     text-align: center;
     font-family: "theOfficeFont";
     top: 25px;
+}
+
+.Bigsection h1{
+    width: 100%;
+    font-size: 80px;
+    text-align: left;
+    font-family: "Tangerine-Regular";
+    top: 25px;
+}
+
+.Bigsection p{
+    font-size: 20px;
+    text-align: justify;
+
 }
 
 .titre-pole{
