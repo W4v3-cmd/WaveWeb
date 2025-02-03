@@ -447,6 +447,43 @@ body {
     position: relative;
 }
 
+
+
+.image-zone {
+    
+    display:flex;
+    box-sizing: border-box;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100%; /* Prend toute la hauteur de l'écran */
+    background-color: #804021 ; /* Couleur de fond différente */
+    padding: 20px;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 50%;
+    text-align: center;
+}
+
+/* Conteneur des images */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+
+/* Style des images */
+.image-container img {
+    text-align: center;
+    width: 40%;
+    height: 40%;
+    transition: transform 0.3s ease;
+}
+
+
+
+
 #reseaux{
     opacity: 1;
     visibility: visible;
