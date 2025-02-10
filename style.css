@@ -224,16 +224,21 @@ body {
 
 .photoMembre{
     position: relative;
-    display: inline-block;
-    width: 90%;  /* Ajuste la taille selon besoin */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    /* width: 90%; */  /* Ajuste la taille selon besoin */
 /*     min-width: none;
     max-width: 50%; */
 }
 
 .photoMembre img {
     border-radius:20%;
-    width: 100%;
-    height: 100%;
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
     /*object-fit: cover; /* S'assure que les images remplissent bien le conteneur */
 }
 
