@@ -215,7 +215,7 @@ body {
 
 .photoPole{
     border-radius:20%;
-    width: 15%;
+    width: 25%;
     margin-bottom: 5%;
     border-width: 5px;
     border-style: solid;
@@ -226,6 +226,8 @@ body {
     position: relative;
     display: inline-block;
     width: 90%;  /* Ajuste la taille selon besoin */
+/*     min-width: none;
+    max-width: 50%; */
 }
 
 .photoMembre img {
