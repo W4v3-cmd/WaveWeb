@@ -459,6 +459,7 @@ body {
 .image-zone {
     
     display:flex;
+    
     box-sizing: border-box;
     justify-content: center; /* Centre horizontalement */
     align-items: center; /* Centre verticalement */
@@ -503,15 +504,20 @@ body {
     position: relative;
 }
 
+#reseaux a{
+    align-items: center; 
+    padding: 30px;
+}
 
 @media (max-width: 768px) { 
     .photo-bureau {
         grid-auto-flow: row;
         justify-content: center;
     }
-    .photo-parenariat {
+    .photo-partenariat {
         grid-auto-flow: row;
         justify-content: center;
+        
     }
 }
 
